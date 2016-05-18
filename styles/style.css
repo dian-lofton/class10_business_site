@@ -58,33 +58,38 @@ h1 {
   margin-bottom: 10px;
   text-transform: lowercase;
 }
-
+img{
+  height:70px;
+  width:70px;
+  margin-top: -26px;
+  margin-left: 30px;
+}
 body{
-  background-color: rgba(255, 247, 230, .5);
+  background-color:rgba(230, 230, 230, .4);
+  height: 100%;
 }
 
 .header {
   padding:0;
   margin:0;
-  height:100px;
+  height:130px;
   width:100%;
   background-color:#fff;
-}
-.logo{
-  image: 20%px;
-  width: 20%;
-  margin: 10px;
+  border:1px;
+  border-color:rgba(255, 247, 230, .8);
 }
 /*this makes a centered horizontal nav(!)*/
 
 ul.nav{
-    border:1px #990000;
-    border-width:1px 0;
     list-style:none;
     margin:0;
     padding:0;
     text-align:center;
-    background-color: #fff;
+}
+.bar{
+    height: 15px;
+    background-color: #000;
+    color: #fff;
 }
 ul.bar{
     font-family: Arial, Helvetica, san serif;
@@ -92,25 +97,19 @@ ul.bar{
     list-style:none;
     padding: 5px;
     text-align:center;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
+    
 }
 .bar li{
-    display:inline-block;
-    padding: 4px;
+    display:inline;
+    padding: 10px;
 }
 .nav li{
     display:inline-block;
 }
 .nav a{
     display:inline-block;
-    padding:10px;
+    padding:14px;
 }
-
-img.div;
-    position: relative;
-    height: 10px
 
 /*.logo {
   display: inline-block;
